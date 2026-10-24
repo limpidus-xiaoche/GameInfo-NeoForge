@@ -1,0 +1,27 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "Apache-2.0"
+
+[[mods]]
+modId = "gameinfo"
+version = "3.0.8-1.21.1"
+displayName = "GameInfo"
+displayURL="https://modrinth.com/mod/gameinfo"
+logoFile="logo.png"
+credits="ifcifc(OriginalAuthor) and chenjl_117(Fe3O4) and AnaGallisallae(Mascot)"
+authors = "Coda_R5"
+description = '''Gameinfo for 1.21.1 neoforge (downported from 26.3)'''
+
+[[dependencies.gameinfo]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.gameinfo]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.21.2)"
+ordering = "NONE"
+side = "BOTH"

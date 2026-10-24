@@ -1,0 +1,17 @@
+# Build output
+build/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Gradle (备用构建)
+.gradle/
